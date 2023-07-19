@@ -8,6 +8,7 @@ const Signin = () => {
 
     const signin = (e) => {
         e.preventDefult();
+        
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log(userCredential);
@@ -29,4 +30,3 @@ const Signin = () => {
 
 export default Signin
 
-//ur nothing ur nothing u need no one i dont need anyone i dont need anyone i dont need anyone. u r alone
